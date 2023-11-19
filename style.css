@@ -1,77 +1,83 @@
 body {
-  padding-top: 64px;
-  font-family: 'Open Sans', sans-serif;
-  color: #828282;
-  text-align: center;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+
+    text-align: center;
+    
 }
 
 #hero {
-  width: 592px;
-  margin: 0 auto 72px;
+    width: 626px;
+    margin: 64px auto;
 }
 
 #hero img {
-  margin-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 h1 {
-  font-family: 'Dosis', sans-serif;
-  color: #3F3D56;
-  text-align: center;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: normal;
+
+    margin-bottom: 32px;
+
+    color: #3F3D56;
 }
 
 h1 span {
-  font-weight: bold;
-  color: #EE24FF;
+    font-weight: bold;
+    color: #EE24FF;
 }
 
-strong {
-  color:#3F3D56;
+p {
+    color: #828282;
+
+    font-size: 15px;
+    line-height: 22px;
+
+    margin: 16px auto 32px;
 }
 
-.a {
-  color:#828282;
+p span {
+    color: #3F3D56;
 }
 
-#footer {
-  color:#7D7987;
-  font-size: 15px;
-  line-height: 64px;
-  font-weight: 700;
+#ofertas {
+    margin-bottom: 64px;
+}
+
+#line {
+    width: 391px;
+    height: 0px;
+
+    margin: 0 auto 16px;
+
+    border: 1px solid #ECEFF2;
 }
 
 a {
-  text-decoration: none;
-  width: 66px;
-  height: 15.169px;
-  flex-shrink: 0;
+    text-decoration: none;
+    
+    color: #3F3D56;
+    
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
 }
 
+#footer {
+    margin: 0 auto 72px;
+}
 
 #footer a + a {
-  margin-left: 38px;
+    margin-left: 42px;
+    margin-bottom: 32px;
 }
 
-.line {
-  width: 391px;
-  height: 0px;
-  margin: 0 auto 16px;
-  border: 1px solid #ECEFF2;
-}
 
 #wave {
-  background-image: url('images/Wave.jpg');
-  background-size: cover; /* Faz com que a imagem cubra toda a área do elemento */
-  background-repeat: no-repeat; /* Evita a repetição da imagem */
-  width: 100%; /* Ajusta a largura para a largura total da tela */
-  height: auto; /* Ajusta a altura proporcionalmente */
-  min-height: 150px; /* Ajuste esse valor de acordo com a altura original da barra */
+    width: 100vw;
+    position: absolute;
+    left: 0;
 }
